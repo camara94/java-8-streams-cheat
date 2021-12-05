@@ -28,6 +28,32 @@ public abstract class Main {
 		Author auth22 = new Author("Roy Chapman ", "Sacks", "Roy Chapman Andrews", Gender.MALE, 67);
 		Author auth23 = new Author("Robert", "Hooke", "Robert Hooke", Gender.MALE, 69);
 		Author auth24 = new Author("James", "Lovelock", "James Lovelock", Gender.MALE, 23);
+		
+		Book book1 = new Book( "The Voyage of the Beagle", auth1, 1845, "Difficile de nier que ces deux titres doivent figurer parmi les, disons, dix premières entrées de toute liste des ouvrages scientifiques les plus influents et importants de tous les temps." );
+		Book book2 = new Book( "Philosophiae Naturalis Principia Mathematica", auth2, 1687, "Je l'aurais pour ma part mis en tout premier. On a du mal aujourd'hui, à se représenter l'extraordinaire impact de ce livre, de la vision du monde qu'il avançait et de tout ce qu'il a apporté sur le plan conceptuel et méthodologique. Et bien que Newton, comme il l'a dit, se soit tenu sur les épaules des géants qui l'ont précédé, la synthèse qu'il présente ici reste exemplaire." );
+		Book book3 = new Book( "Dialogue sur les deux grands systèmes du monde", auth3, 1632, "Aucune objection encore une fois. Newton est impossible sans Galilée.");
+		Book book4 = new Book( "De Revolutionibus Orbium Coelestium", auth4, 1543, "Ici encore, voici un livre qui doit figurer dans toute liste des ouvrages scientifiques les plus importants et influents." );
+		Book book5 = new Book( "Physica", auth5, 330, "C'est contre la physique d'Aristote que Copernic, Galilée et Newton ont réagi et ont eu à se battre. Ouvrage important, donc, mais en un sens bien particulier puisqu'il a fallu lutter pour se dégager des conceptions qu'il avance. notamment dans cette version bilingue (latin-anglais)(https://www.amazon.ca/Humani-Corporis-Fabrica-Andreas-Vesalius/dp/1891788108/sr=8-3/qid=1165240385/ref=sr_1_3/702-3791893-8387209?ie=UTF8&s=books)" );
+		Book book6 = new Book( "De Humani Corporis Fabrica", auth6, 1543, "C'est le premier ouvrage d'anatomie digne de ce nom. Illustré bien entendu. Il est toujours disponible," );
+		Book book7 = new Book( "Relativity: The Special and General Theory", auth7, 1916, "J'ai lu beaucoup de présentations des théories de la relativité destinées au grand public, mais je pense qu'Einstein reste le meilleur vulgarisateur de ses idées. Une mise en garde: le brave homme se faisait une très, très haute idée des compétences et de la détermination à comprendre du citoyen ordinaire." );
+		Book book8 = new Book( "The Selfish Gene", auth8, 1976, "Le livre par lequel Dawkins s'est fait connaître serait-il devenu un classique? J'avoue ne pas trop le savoir. Et je me demande en passant — et sans pouvoir répondre — si le concept de mème a si bien tenu la route que ça..." );
+		Book book9 = new Book( "Un, deux, trois. . . l'infini", auth9, 1947, "Une des grandes joies de ma jeunesse. À mettre entre toutes les (jeunes) mains de 7 à 77 ans." );
+		Book book10 = new Book( "La double hélice", auth10, 1968, "La découverte de la strcuture de l'ADN par un de ses principaux acteurs. Passionnant comme un roman, l'ouvrage comtient des passages troublants et émouvants, en particulier ceux consacrés à Rosalind Franklin." );
+		Book book11 = new Book( "What Is Life?", auth11, 1944, "Oups... je ne l'ai pas lu. Je devrais, vous pensez?" );
+		Book book12 = new Book( "The Cosmic Connection", auth12, 1973, "J'aime beaucoup Sagan, mais ce choix, et en cette position, tout cela me semble quelque peu excessif." );
+		Book book13 = new Book( "The Insect Societies", auth13, 1971, "500 pages d'un vrai régal. Ce livre allait déboucher en 1975 sur Sociobiology: The New Synthesis, et créer la controverse que l'on sait." );
+		Book book14 = new Book( "The First Three Minutes", auth14, 1977, "C'est un des livres d'astronomie que j'aurais mis plus haut, au lieu du Sagan.Weinberg est toujours clair et agréable à lire. il a aussi été un important défenseur de la rationalité dans la récente «guerre des sciences» (L'affaire Sokal et ainsi de suite...)" );
+		Book book15 = new Book( "Silent Spring", auth15, 1962, "Le militant en moi aurait sans doute placé ce livre plus haut dans la liste, s'il avait été tenu de lui faire une place. Ouvrage incontournable pour le mouvement écologiste moderne, en tout cas. Et comme on le lui a fait payer cher, ce grand livre, à Mme Carson! Étrangement , et sauf erreur de ma part, il n'en existe pas de version française." );
+		Book book16 = new Book( "The Mismeasure of Man", auth16, 1981, "Le célèbre et regretté biologiste, père de l'équilibre ponctué, de penche sur la notion de QI et autres questions connexes. Comprend aussi sa réaction, indignée, aux idées défendues dans le livre : The Bell Curve. Un choix défendable." );
+		Book book17 = new Book( "The Man Who Mistook His Wife for a Hat and Other Clinical Tales", auth17, 1985, "Inspirant et amusant, sans aucun doute. Mais un grand livre de science? Je ne suis pas certain..." );
+		Book book18 = new Book( "The Journals of Lewis and Clark", auth18, 1814, "Oups... à mettre sur ma PAL (Pile À Lire)." );
+		Book book19 = new Book( "The Feynman Lectures on Physics", auth19, 1963, "Je l'aurais mis beaucoup plus haut. Selon moi, Feynman est le plus grand pédagogue de la physique. Et quel personnage, en plus! Vous saviez qu'il a, paraît-il, dit à sa femme en mourant: «Je détesterais mourir deux fois; c'est tellement ennuyant!». Fascinant et génial Feynman." );
+		Book book20 = new Book( "Sexual Behavior in the Human Male", auth20, 1948, "Intéressant et important, sans doute. Mais je trouve que cette liste commence à sentir très fort l'européocentrisme et l'américanocentrisme." );
+		Book book21 = new Book( "Gorillas in the Mist", auth21, 1983, "Même remarque.Je ne pense pas que sans Hollywood, ce livre figurerait sur cette liste." );
+		Book book22 = new Book( "Under a Lucky Star", auth22, 1943, "Des expéditions au désert de Gobi. Roy Chapman Andrews serait l'inspiration derrière le personnage d'Indiana Jones. Quand je vous disais Hollywood..." );
+		Book book23 = new Book( "Micrographia", auth23, 1665, "Le monde vu et décrit à travers un microscope. Une révolution. Mais pourquoi si bas sur la liste? Une réédition est https://www.amazon.ca/Micrographia-Robert-Hooke/dp/1891788027/sr=1-5/qid=1165259476/ref=sr_1_5/702-3791893-8387209?ie=UTF8&s=books" );
+		Book book24 = new Book( "Gaia", auth24, 1979, "L'hypothèse Gaia nous conduit aux portes du New Age et on peut se demande si ce choix est réellement judicieux" );
+	
 	}
 
 }
