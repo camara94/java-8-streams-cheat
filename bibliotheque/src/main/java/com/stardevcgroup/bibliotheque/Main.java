@@ -165,6 +165,14 @@ public abstract class Main {
 			      .distinct()
 			      .filter(prenom -> prenom.length()>6)
 			      .forEach(a -> System.out.println(a));
+		   
+	   /// Les livres 
+	   System.out.println();
+	   System.out.println("================= Oeuvre de Galileo et Aristote ==================");
+	   books.stream()
+	   		.filter( b -> b.getAuthor().getFirstname().equals("Galileo") || b.getAuthor().getFirstname().equals("Aristote") )
+	   		.map(Book::getTitle)
+	   		.forEach( System.out::println );
 				   
 	
 	}
