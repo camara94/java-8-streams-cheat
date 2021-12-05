@@ -1,5 +1,8 @@
 package com.stardevcgroup.bibliotheque;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Main {
 
 	public static void main(String[] args) {
@@ -53,6 +56,32 @@ public abstract class Main {
 		Book book22 = new Book( "Under a Lucky Star", auth22, 1943, "Des expéditions au désert de Gobi. Roy Chapman Andrews serait l'inspiration derrière le personnage d'Indiana Jones. Quand je vous disais Hollywood..." );
 		Book book23 = new Book( "Micrographia", auth23, 1665, "Le monde vu et décrit à travers un microscope. Une révolution. Mais pourquoi si bas sur la liste? Une réédition est https://www.amazon.ca/Micrographia-Robert-Hooke/dp/1891788027/sr=1-5/qid=1165259476/ref=sr_1_5/702-3791893-8387209?ie=UTF8&s=books" );
 		Book book24 = new Book( "Gaia", auth24, 1979, "L'hypothèse Gaia nous conduit aux portes du New Age et on peut se demande si ce choix est réellement judicieux" );
+	
+		List<Author> authors = new ArrayList<Author>();
+		authors.add(auth1);
+		authors.add(auth2);
+		authors.add(auth3);
+		authors.add(auth4);
+		authors.add(auth5);
+		authors.add(auth6);
+		authors.add(auth7);
+		authors.add(auth8);
+		authors.add(auth9);
+		authors.add(auth10);
+		authors.add(auth11);
+		authors.add(auth12);
+		authors.add(auth13);
+		authors.add(auth14);
+		authors.add(auth15);
+		authors.add(auth16);
+		authors.add(auth17);
+		authors.add(auth18);
+		authors.add(auth19);
+		authors.add(auth20);
+		authors.add(auth21);
+		authors.add(auth22);
+		authors.add(auth23);
+		authors.add(auth24);
 	
 	}
 
