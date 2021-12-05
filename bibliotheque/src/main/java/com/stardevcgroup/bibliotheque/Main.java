@@ -82,6 +82,32 @@ public abstract class Main {
 		authors.add(auth22);
 		authors.add(auth23);
 		authors.add(auth24);
+		
+		List<Book> books = new ArrayList<Book>();
+		books.add(book1);
+		books.add(book2);
+		books.add(book3);
+		books.add(book4);
+		books.add(book5);
+		books.add(book6);
+		books.add(book7);
+		books.add(book8);
+		books.add(book9);
+		books.add(book10);
+		books.add(book11);
+		books.add(book12);
+		books.add(book13);
+		books.add(book14);
+		books.add(book15);
+		books.add(book16);
+		books.add(book17);
+		books.add(book18);
+		books.add(book19);
+		books.add(book20);
+		books.add(book21);
+		books.add(book22);
+		books.add(book23);
+		books.add(book24);
 	
 	}
 
