@@ -84,6 +84,7 @@ public abstract class Main {
 		authors.add(auth24);
 		
 		List<Book> books = new ArrayList<Book>();
+		
 		books.add(book1);
 		books.add(book2);
 		books.add(book3);
@@ -108,6 +109,63 @@ public abstract class Main {
 		books.add(book22);
 		books.add(book23);
 		books.add(book24);
+		
+		// On cherche les auteurs qui on plus que 25 ans
+		System.out.println( authors.stream()
+			   .filter(a -> a.getAge() > 25 )
+			   .count())
+			   ;
+		
+		// Ici j'affiche les 15 premiers nom du stream
+	    authors.stream()
+	    	   .map(Author::getFirstname)
+	    	   .limit(15)
+	    	   .forEach(a -> System.out.println(a));
+	    
+	 // Ici je récupère et convertir en majuscule les 5 premiers nom du stream et affiche
+	   System.out.println();
+	   System.out.println("==================================================================");
+	    authors.stream()
+	    	   .map(Author::getFirstname)
+	    	   .map(String::toUpperCase)
+	    	   .limit(5)
+	    	   .forEach(a -> System.out.println(a));
+	    
+	    
+	 // Je vais dupliquer le premier dans la liste
+	  Author auth = new Author("Charles", "Darwin", "Charles Darwin", Gender.MALE, 23);
+	  authors.add(0, auth);
+      
+	  // Ici je récupère et convertir en majuscule les 5 premiers nom du stream et affiche
+	   System.out.println();
+	   System.out.println("==================================================================");
+	    authors.stream()
+	    	   .map(Author::getFirstname)
+	    	   .map(String::toUpperCase)
+	    	   .limit(5)
+	    	   .forEach(a -> System.out.println(a));
+	    
+	    // Ici je n'affiche les prenom doublons dans list
+		   System.out.println();
+		   System.out.println("==================================================================");
+		    authors.stream()
+		    	   .map(Author::getFirstname)
+		    	   .map(String::toUpperCase)
+		    	   .limit(5)
+		    	   .distinct()
+		    	   .forEach(a -> System.out.println(a));
+     
+	    // Ici je n'affiche que les prenom qui ont plus que 6 caratères
+		   System.out.println();
+		   System.out.println("==================================================================");
+		   authors.stream()
+			      .map(Author::getFirstname)
+			      .map(String::toUpperCase)
+			      .limit(5)
+			      .distinct()
+			      .filter(prenom -> prenom.length()>6)
+			      .forEach(a -> System.out.println(a));
+				   
 	
 	}
 
